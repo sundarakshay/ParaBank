@@ -1,0 +1,385 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>61/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Nov 14 10:12:41 CST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>208 seconds (208862 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='RegressionTest.Register.clickingRegisterWithoutAnyDetails()'><b>clickingRegisterWithoutAnyDetails</b><br>Test class: RegressionTest.Register</td>
+<td></td>
+<td>4</td>
+<td>RegressionTest.Register@5d43661b</td></tr>
+<tr>
+<td title='RegressionTest.Register.clickingRegisterWithoutState()'><b>clickingRegisterWithoutState</b><br>Test class: RegressionTest.Register</td>
+<td></td>
+<td>4</td>
+<td>RegressionTest.Register@5d43661b</td></tr>
+<tr>
+<td title='RegressionTest.HomePage.homePageWelcomeMessage()'><b>homePageWelcomeMessage</b><br>Test class: RegressionTest.HomePage</td>
+<td></td>
+<td>0</td>
+<td>RegressionTest.HomePage@4bf48f6</td></tr>
+<tr>
+<td title='RegressionTest.BillPay.CheckingTheTitle()'><b>CheckingTheTitle</b><br>Test class: RegressionTest.BillPay</td>
+<td></td>
+<td>0</td>
+<td>RegressionTest.BillPay@62833051</td></tr>
+<tr>
+<td title='RegressionTest.BillPay.clickingRegisterWithoutVerifyAccount()'><b>clickingRegisterWithoutVerifyAccount</b><br>Test class: RegressionTest.BillPay</td>
+<td></td>
+<td>0</td>
+<td>RegressionTest.BillPay@62833051</td></tr>
+<tr>
+<td title='RegressionTest.Register.clickingRegisterWithoutRepeatPassword()'><b>clickingRegisterWithoutRepeatPassword</b><br>Test class: RegressionTest.Register</td>
+<td></td>
+<td>4</td>
+<td>RegressionTest.Register@5d43661b</td></tr>
+<tr>
+<td title='RegressionTest.ForgetPassword.clickingFindMyLoginInfoWithoutAddress()'><b>clickingFindMyLoginInfoWithoutAddress</b><br>Test class: RegressionTest.ForgetPassword</td>
+<td></td>
+<td>4</td>
+<td>RegressionTest.ForgetPassword@12299890</td></tr>
+<tr>
+<td title='RegressionTest.UpdateContactInfo.clickingUpdateProfileRemovingZipcode()'><b>clickingUpdateProfileRemovingZipcode</b><br>Test class: RegressionTest.UpdateContactInfo</td>
+<td></td>
+<td>0</td>
+<td>RegressionTest.UpdateContactInfo@1c39680d</td></tr>
+<tr>
+<td title='RegressionTest.LoginPage.incorrectusernameAndcorrectPassword()'><b>incorrectusernameAndcorrectPassword</b><br>Test class: RegressionTest.LoginPage</td>
+<td></td>
+<td>3</td>
+<td>RegressionTest.LoginPage@2fba3fc4</td></tr>
+<tr>
+<td title='RegressionTest.BillPay.clickingRegisterWithDifferentAccountNumber()'><b>clickingRegisterWithDifferentAccountNumber</b><br>Test class: RegressionTest.BillPay</td>
+<td></td>
+<td>0</td>
+<td>RegressionTest.BillPay@62833051</td></tr>
+<tr>
+<td title='RegressionTest.ForgetPassword.clickingFindMyLoginInfoWithoutAnyDetails()'><b>clickingFindMyLoginInfoWithoutAnyDetails</b><br>Test class: RegressionTest.ForgetPassword</td>
+<td></td>
+<td>3</td>
+<td>RegressionTest.ForgetPassword@12299890</td></tr>
+<tr>
+<td title='RegressionTest.ForgetPassword.checkingTitleOfPage()'><b>checkingTitleOfPage</b><br>Test class: RegressionTest.ForgetPassword</td>
+<td></td>
+<td>3</td>
+<td>RegressionTest.ForgetPassword@12299890</td></tr>
+<tr>
+<td title='RegressionTest.HomePage.homePageAccountTableDetails()'><b>homePageAccountTableDetails</b><br>Test class: RegressionTest.HomePage</td>
+<td></td>
+<td>0</td>
+<td>RegressionTest.HomePage@4bf48f6</td></tr>
+<tr>
+<td title='RegressionTest.ForgetPassword.clickingFindMyLoginInfoWithoutLastName()'><b>clickingFindMyLoginInfoWithoutLastName</b><br>Test class: RegressionTest.ForgetPassword</td>
+<td></td>
+<td>3</td>
+<td>RegressionTest.ForgetPassword@12299890</td></tr>
+<tr>
+<td title='RegressionTest.ForgetPassword.clickingFindMyLoginInfoWithAllDetails()'><b>clickingFindMyLoginInfoWithAllDetails</b><br>Test class: RegressionTest.ForgetPassword</td>
+<td></td>
+<td>4</td>
+<td>RegressionTest.ForgetPassword@12299890</td></tr>
+<tr>
+<td title='RegressionTest.HomePage.homePageMainTitle()'><b>homePageMainTitle</b><br>Test class: RegressionTest.HomePage</td>
+<td></td>
+<td>0</td>
+<td>RegressionTest.HomePage@4bf48f6</td></tr>
+<tr>
+<td title='RegressionTest.BillPay.clickingRegisterWithoutCity()'><b>clickingRegisterWithoutCity</b><br>Test class: RegressionTest.BillPay</td>
+<td></td>
+<td>0</td>
+<td>RegressionTest.BillPay@62833051</td></tr>
+<tr>
+<td title='RegressionTest.BillPay.clickingRegisterWithoutphoneNumber()'><b>clickingRegisterWithoutphoneNumber</b><br>Test class: RegressionTest.BillPay</td>
+<td></td>
+<td>0</td>
+<td>RegressionTest.BillPay@62833051</td></tr>
+<tr>
+<td title='RegressionTest.UpdateContactInfo.clickingUpdateProfileRemovingFirstName()'><b>clickingUpdateProfileRemovingFirstName</b><br>Test class: RegressionTest.UpdateContactInfo</td>
+<td></td>
+<td>0</td>
+<td>RegressionTest.UpdateContactInfo@1c39680d</td></tr>
+<tr>
+<td title='RegressionTest.Register.clickingRegisterWithoutAddress()'><b>clickingRegisterWithoutAddress</b><br>Test class: RegressionTest.Register</td>
+<td></td>
+<td>4</td>
+<td>RegressionTest.Register@5d43661b</td></tr>
+<tr>
+<td title='RegressionTest.Register.checkingTitleOfPage()'><b>checkingTitleOfPage</b><br>Test class: RegressionTest.Register</td>
+<td></td>
+<td>2</td>
+<td>RegressionTest.Register@5d43661b</td></tr>
+<tr>
+<td title='RegressionTest.HomePage.homePageMenuItems()'><b>homePageMenuItems</b><br>Test class: RegressionTest.HomePage</td>
+<td></td>
+<td>0</td>
+<td>RegressionTest.HomePage@4bf48f6</td></tr>
+<tr>
+<td title='RegressionTest.OpenNewAccount.OneNewAccountCheckTitle()'><b>OneNewAccountCheckTitle</b><br>Test class: RegressionTest.OpenNewAccount</td>
+<td></td>
+<td>0</td>
+<td>RegressionTest.OpenNewAccount@420a85c4</td></tr>
+<tr>
+<td title='RegressionTest.UpdateContactInfo.clickingUpdateProfileRemovingCity()'><b>clickingUpdateProfileRemovingCity</b><br>Test class: RegressionTest.UpdateContactInfo</td>
+<td></td>
+<td>0</td>
+<td>RegressionTest.UpdateContactInfo@1c39680d</td></tr>
+<tr>
+<td title='RegressionTest.ForgetPassword.clickingFindMyLoginInfoWithoutSSN()'><b>clickingFindMyLoginInfoWithoutSSN</b><br>Test class: RegressionTest.ForgetPassword</td>
+<td></td>
+<td>4</td>
+<td>RegressionTest.ForgetPassword@12299890</td></tr>
+<tr>
+<td title='RegressionTest.LoginPage.withoutUsernameAndPassword()'><b>withoutUsernameAndPassword</b><br>Test class: RegressionTest.LoginPage</td>
+<td></td>
+<td>2</td>
+<td>RegressionTest.LoginPage@2fba3fc4</td></tr>
+<tr>
+<td title='RegressionTest.Register.clickingRegisterWithoutUsername()'><b>clickingRegisterWithoutUsername</b><br>Test class: RegressionTest.Register</td>
+<td></td>
+<td>4</td>
+<td>RegressionTest.Register@5d43661b</td></tr>
+<tr>
+<td title='RegressionTest.LoginPage.withUsernameAndWithoutPassword()'><b>withUsernameAndWithoutPassword</b><br>Test class: RegressionTest.LoginPage</td>
+<td></td>
+<td>3</td>
+<td>RegressionTest.LoginPage@2fba3fc4</td></tr>
+<tr>
+<td title='RegressionTest.LoginPage.correctusernameAndIncorrectPassword()'><b>correctusernameAndIncorrectPassword</b><br>Test class: RegressionTest.LoginPage</td>
+<td></td>
+<td>4</td>
+<td>RegressionTest.LoginPage@2fba3fc4</td></tr>
+<tr>
+<td title='RegressionTest.Register.clickingRegisterWithoutZipCode()'><b>clickingRegisterWithoutZipCode</b><br>Test class: RegressionTest.Register</td>
+<td></td>
+<td>3</td>
+<td>RegressionTest.Register@5d43661b</td></tr>
+<tr>
+<td title='RegressionTest.Logout.logoutFeature()'><b>logoutFeature</b><br>Test class: RegressionTest.Logout</td>
+<td></td>
+<td>7</td>
+<td>RegressionTest.Logout@1c852c0f</td></tr>
+<tr>
+<td title='RegressionTest.LoginPage.correctPasswordAndUsername()'><b>correctPasswordAndUsername</b><br>Test class: RegressionTest.LoginPage</td>
+<td></td>
+<td>7</td>
+<td>RegressionTest.LoginPage@2fba3fc4</td></tr>
+<tr>
+<td title='RegressionTest.HomePage.homePageMenuTitle()'><b>homePageMenuTitle</b><br>Test class: RegressionTest.HomePage</td>
+<td></td>
+<td>0</td>
+<td>RegressionTest.HomePage@4bf48f6</td></tr>
+<tr>
+<td title='RegressionTest.OpenNewAccount.OpenNewAccountWithoutSelectingNothing()'><b>OpenNewAccountWithoutSelectingNothing</b><br>Test class: RegressionTest.OpenNewAccount</td>
+<td></td>
+<td>0</td>
+<td>RegressionTest.OpenNewAccount@420a85c4</td></tr>
+<tr>
+<td title='RegressionTest.ForgetPassword.clickingFindMyLoginInfoWithoutCity()'><b>clickingFindMyLoginInfoWithoutCity</b><br>Test class: RegressionTest.ForgetPassword</td>
+<td></td>
+<td>3</td>
+<td>RegressionTest.ForgetPassword@12299890</td></tr>
+<tr>
+<td title='RegressionTest.ForgetPassword.clickingFindMyLoginInfoWithoutState()'><b>clickingFindMyLoginInfoWithoutState</b><br>Test class: RegressionTest.ForgetPassword</td>
+<td></td>
+<td>3</td>
+<td>RegressionTest.ForgetPassword@12299890</td></tr>
+<tr>
+<td title='RegressionTest.UpdateContactInfo.clickingUpdateProfileWithoutAnyDetails()'><b>clickingUpdateProfileWithoutAnyDetails</b><br>Test class: RegressionTest.UpdateContactInfo</td>
+<td></td>
+<td>0</td>
+<td>RegressionTest.UpdateContactInfo@1c39680d</td></tr>
+<tr>
+<td title='RegressionTest.UpdateContactInfo.clickingUpdateProfileRemovingLastName()'><b>clickingUpdateProfileRemovingLastName</b><br>Test class: RegressionTest.UpdateContactInfo</td>
+<td></td>
+<td>0</td>
+<td>RegressionTest.UpdateContactInfo@1c39680d</td></tr>
+<tr>
+<td title='RegressionTest.UpdateContactInfo.clickingUpdateProfileRemovingState()'><b>clickingUpdateProfileRemovingState</b><br>Test class: RegressionTest.UpdateContactInfo</td>
+<td></td>
+<td>0</td>
+<td>RegressionTest.UpdateContactInfo@1c39680d</td></tr>
+<tr>
+<td title='RegressionTest.ForgetPassword.clickingFindMyLoginInfoWithoutFirstName()'><b>clickingFindMyLoginInfoWithoutFirstName</b><br>Test class: RegressionTest.ForgetPassword</td>
+<td></td>
+<td>4</td>
+<td>RegressionTest.ForgetPassword@12299890</td></tr>
+<tr>
+<td title='RegressionTest.Register.clickingRegisterWithoutSSN()'><b>clickingRegisterWithoutSSN</b><br>Test class: RegressionTest.Register</td>
+<td></td>
+<td>4</td>
+<td>RegressionTest.Register@5d43661b</td></tr>
+<tr>
+<td title='RegressionTest.ForgetPassword.checkingSubTitleOfPage()'><b>checkingSubTitleOfPage</b><br>Test class: RegressionTest.ForgetPassword</td>
+<td></td>
+<td>2</td>
+<td>RegressionTest.ForgetPassword@12299890</td></tr>
+<tr>
+<td title='RegressionTest.BillPay.clickingRegisterWithoutState()'><b>clickingRegisterWithoutState</b><br>Test class: RegressionTest.BillPay</td>
+<td></td>
+<td>0</td>
+<td>RegressionTest.BillPay@62833051</td></tr>
+<tr>
+<td title='RegressionTest.BillPay.clickingRegisterWithoutVerifyAmount()'><b>clickingRegisterWithoutVerifyAmount</b><br>Test class: RegressionTest.BillPay</td>
+<td></td>
+<td>0</td>
+<td>RegressionTest.BillPay@62833051</td></tr>
+<tr>
+<td title='RegressionTest.Register.clickingRegisterWithoutPassword()'><b>clickingRegisterWithoutPassword</b><br>Test class: RegressionTest.Register</td>
+<td></td>
+<td>3</td>
+<td>RegressionTest.Register@5d43661b</td></tr>
+<tr>
+<td title='RegressionTest.Register.clickingRegisterWithoutLastName()'><b>clickingRegisterWithoutLastName</b><br>Test class: RegressionTest.Register</td>
+<td></td>
+<td>4</td>
+<td>RegressionTest.Register@5d43661b</td></tr>
+<tr>
+<td title='RegressionTest.Register.clickingRegisterWithoutFirstName()'><b>clickingRegisterWithoutFirstName</b><br>Test class: RegressionTest.Register</td>
+<td></td>
+<td>4</td>
+<td>RegressionTest.Register@5d43661b</td></tr>
+<tr>
+<td title='RegressionTest.Register.clickingRegisterWithoutCity()'><b>clickingRegisterWithoutCity</b><br>Test class: RegressionTest.Register</td>
+<td></td>
+<td>3</td>
+<td>RegressionTest.Register@5d43661b</td></tr>
+<tr>
+<td title='RegressionTest.BillPay.clickingRegisterWithoutAccountNumber()'><b>clickingRegisterWithoutAccountNumber</b><br>Test class: RegressionTest.BillPay</td>
+<td></td>
+<td>0</td>
+<td>RegressionTest.BillPay@62833051</td></tr>
+<tr>
+<td title='RegressionTest.UpdateContactInfo.clickingUpdateProfileRemovingAddress()'><b>clickingUpdateProfileRemovingAddress</b><br>Test class: RegressionTest.UpdateContactInfo</td>
+<td></td>
+<td>0</td>
+<td>RegressionTest.UpdateContactInfo@1c39680d</td></tr>
+<tr>
+<td title='RegressionTest.ForgetPassword.clickingFindMyLoginInfoWithoutZipCode()'><b>clickingFindMyLoginInfoWithoutZipCode</b><br>Test class: RegressionTest.ForgetPassword</td>
+<td></td>
+<td>3</td>
+<td>RegressionTest.ForgetPassword@12299890</td></tr>
+<tr>
+<td title='RegressionTest.BillPay.clickingRegisterWithoutPayeeAddress()'><b>clickingRegisterWithoutPayeeAddress</b><br>Test class: RegressionTest.BillPay</td>
+<td></td>
+<td>0</td>
+<td>RegressionTest.BillPay@62833051</td></tr>
+<tr>
+<td title='RegressionTest.BillPay.ClickSendPaymentWithoutAnyDetails()'><b>ClickSendPaymentWithoutAnyDetails</b><br>Test class: RegressionTest.BillPay</td>
+<td></td>
+<td>0</td>
+<td>RegressionTest.BillPay@62833051</td></tr>
+<tr>
+<td title='RegressionTest.LoginPage.withPasswordAndWithoutUsername()'><b>withPasswordAndWithoutUsername</b><br>Test class: RegressionTest.LoginPage</td>
+<td></td>
+<td>3</td>
+<td>RegressionTest.LoginPage@2fba3fc4</td></tr>
+<tr>
+<td title='RegressionTest.UpdateContactInfo.clickingUpdateProfileWithAllDetails()'><b>clickingUpdateProfileWithAllDetails</b><br>Test class: RegressionTest.UpdateContactInfo</td>
+<td></td>
+<td>0</td>
+<td>RegressionTest.UpdateContactInfo@1c39680d</td></tr>
+<tr>
+<td title='RegressionTest.BillPay.clickingRegisterWithoutZipCode()'><b>clickingRegisterWithoutZipCode</b><br>Test class: RegressionTest.BillPay</td>
+<td></td>
+<td>0</td>
+<td>RegressionTest.BillPay@62833051</td></tr>
+<tr>
+<td title='RegressionTest.BillPay.clickingRegisterWithAllDetails()'><b>clickingRegisterWithAllDetails</b><br>Test class: RegressionTest.BillPay</td>
+<td></td>
+<td>1</td>
+<td>RegressionTest.BillPay@62833051</td></tr>
+<tr>
+<td title='RegressionTest.BillPay.clickingRegisterWithoutPayeeName()'><b>clickingRegisterWithoutPayeeName</b><br>Test class: RegressionTest.BillPay</td>
+<td></td>
+<td>0</td>
+<td>RegressionTest.BillPay@62833051</td></tr>
+<tr>
+<td title='RegressionTest.Register.checkingSubTitleOfPage()'><b>checkingSubTitleOfPage</b><br>Test class: RegressionTest.Register</td>
+<td></td>
+<td>3</td>
+<td>RegressionTest.Register@5d43661b</td></tr>
+<tr>
+<td title='RegressionTest.Register.clickingRegisterWithAllDetail()'><b>clickingRegisterWithAllDetail</b><br>Test class: RegressionTest.Register</td>
+<td></td>
+<td>4</td>
+<td>RegressionTest.Register@5d43661b</td></tr>
+<tr>
+<td title='RegressionTest.LoginPage.Logout()'><b>Logout</b><br>Test class: RegressionTest.LoginPage</td>
+<td></td>
+<td>8</td>
+<td>RegressionTest.LoginPage@2fba3fc4</td></tr>
+</table><p>
+</body>
+</html>

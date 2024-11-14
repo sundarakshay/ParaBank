@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-14T00:43:06 CST" name="Suite" finished-at="2024-11-14T00:43:57 CST" duration-ms="50480">
+    <groups>
+    </groups>
+    <test started-at="2024-11-14T00:43:06 CST" name="Test" finished-at="2024-11-14T00:43:57 CST" duration-ms="50480">
+      <class name="SanityTest.RegisterPage">
+        <test-method signature="clickingRegisterWithAllDetails()[pri:1, instance:SanityTest.RegisterPage@1ef6d34c]" started-at="2024-11-14T00:43:34 CST" name="clickingRegisterWithAllDetails" finished-at="2024-11-14T00:43:50 CST" duration-ms="15112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingRegisterWithAllDetails -->
+      </class> <!-- SanityTest.RegisterPage -->
+      <class name="SanityTest.BillPayPage">
+        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:SanityTest.BillPayPage@46271dd6]" started-at="2024-11-14T00:43:06 CST" name="PreExecutionModule" finished-at="2024-11-14T00:43:22 CST" duration-ms="15462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PreExecutionModule -->
+        <test-method signature="clickingRegisterWithAllDetails()[pri:1, instance:SanityTest.BillPayPage@46271dd6]" started-at="2024-11-14T00:43:34 CST" name="clickingRegisterWithAllDetails" finished-at="2024-11-14T00:43:44 CST" duration-ms="9939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingRegisterWithAllDetails -->
+      </class> <!-- SanityTest.BillPayPage -->
+      <class name="SanityTest.UpdateContactInfo">
+        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:SanityTest.UpdateContactInfo@275bf9b3]" started-at="2024-11-14T00:43:22 CST" name="PreExecutionModule" finished-at="2024-11-14T00:43:34 CST" duration-ms="12447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PreExecutionModule -->
+        <test-method signature="clickingUpdateProfileWithAllDetails()[pri:1, instance:SanityTest.UpdateContactInfo@275bf9b3]" started-at="2024-11-14T00:43:44 CST" name="clickingUpdateProfileWithAllDetails" finished-at="2024-11-14T00:43:49 CST" duration-ms="4693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingUpdateProfileWithAllDetails -->
+      </class> <!-- SanityTest.UpdateContactInfo -->
+      <class name="SanityTest.Logout">
+        <test-method signature="LogoutFeature()[pri:0, instance:SanityTest.Logout@11bb571c]" started-at="2024-11-14T00:43:34 CST" name="LogoutFeature" finished-at="2024-11-14T00:43:57 CST" duration-ms="22200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutFeature -->
+      </class> <!-- SanityTest.Logout -->
+      <class name="SanityTest.Login">
+        <test-method signature="Login()[pri:0, instance:SanityTest.Login@5495333e]" started-at="2024-11-14T00:43:34 CST" name="Login" finished-at="2024-11-14T00:43:57 CST" duration-ms="22481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+      </class> <!-- SanityTest.Login -->
+      <class name="SanityTest.Home">
+        <test-method signature="homePageWelcomeMessage()[pri:0, instance:SanityTest.Home@7c51f34b]" started-at="2024-11-14T00:43:34 CST" name="homePageWelcomeMessage" finished-at="2024-11-14T00:43:55 CST" duration-ms="21091" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageWelcomeMessage -->
+      </class> <!-- SanityTest.Home -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

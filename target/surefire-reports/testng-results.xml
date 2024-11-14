@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="67" passed="67" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-14T10:12:41 CST" name="Suite" finished-at="2024-11-14T10:13:25 CST" duration-ms="44037">
+    <groups>
+    </groups>
+    <test started-at="2024-11-14T10:12:41 CST" name="Test" finished-at="2024-11-14T10:13:25 CST" duration-ms="44037">
+      <class name="SanityTest.RegisterPage">
+        <test-method signature="clickingRegisterWithAllDetails()[pri:1, instance:SanityTest.RegisterPage@747f281]" started-at="2024-11-14T10:13:06 CST" name="clickingRegisterWithAllDetails" finished-at="2024-11-14T10:13:17 CST" duration-ms="11341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingRegisterWithAllDetails -->
+      </class> <!-- SanityTest.RegisterPage -->
+      <class name="SanityTest.BillPayPage">
+        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:SanityTest.BillPayPage@1169afe1]" started-at="2024-11-14T10:12:41 CST" name="PreExecutionModule" finished-at="2024-11-14T10:12:55 CST" duration-ms="13301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PreExecutionModule -->
+        <test-method signature="clickingRegisterWithAllDetails()[pri:1, instance:SanityTest.BillPayPage@1169afe1]" started-at="2024-11-14T10:13:06 CST" name="clickingRegisterWithAllDetails" finished-at="2024-11-14T10:13:15 CST" duration-ms="9119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingRegisterWithAllDetails -->
+      </class> <!-- SanityTest.BillPayPage -->
+      <class name="SanityTest.UpdateContactInfo">
+        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:SanityTest.UpdateContactInfo@264f218]" started-at="2024-11-14T10:12:55 CST" name="PreExecutionModule" finished-at="2024-11-14T10:13:06 CST" duration-ms="11097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PreExecutionModule -->
+        <test-method signature="clickingUpdateProfileWithAllDetails()[pri:1, instance:SanityTest.UpdateContactInfo@264f218]" started-at="2024-11-14T10:13:15 CST" name="clickingUpdateProfileWithAllDetails" finished-at="2024-11-14T10:13:18 CST" duration-ms="3323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingUpdateProfileWithAllDetails -->
+      </class> <!-- SanityTest.UpdateContactInfo -->
+      <class name="SanityTest.Logout">
+        <test-method signature="LogoutFeature()[pri:0, instance:SanityTest.Logout@2ca26d77]" started-at="2024-11-14T10:13:06 CST" name="LogoutFeature" finished-at="2024-11-14T10:13:22 CST" duration-ms="16271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutFeature -->
+      </class> <!-- SanityTest.Logout -->
+      <class name="SanityTest.Login">
+        <test-method signature="Login()[pri:0, instance:SanityTest.Login@70e38ce1]" started-at="2024-11-14T10:13:06 CST" name="Login" finished-at="2024-11-14T10:13:25 CST" duration-ms="19568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+      </class> <!-- SanityTest.Login -->
+      <class name="SanityTest.Home">
+        <test-method signature="homePageWelcomeMessage()[pri:0, instance:SanityTest.Home@4808bc9b]" started-at="2024-11-14T10:13:06 CST" name="homePageWelcomeMessage" finished-at="2024-11-14T10:13:22 CST" duration-ms="16402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageWelcomeMessage -->
+      </class> <!-- SanityTest.Home -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+  <suite started-at="2024-11-14T10:12:41 CST" name="Suite (0)" finished-at="2024-11-14T10:16:10 CST" duration-ms="208862">
+    <groups>
+    </groups>
+    <test started-at="2024-11-14T10:12:41 CST" name="Test" finished-at="2024-11-14T10:16:10 CST" duration-ms="208862">
+      <class name="RegressionTest.ForgetPassword">
+        <test-method signature="checkingTitleOfPage()[pri:1, instance:RegressionTest.ForgetPassword@12299890]" started-at="2024-11-14T10:14:33 CST" name="checkingTitleOfPage" finished-at="2024-11-14T10:14:36 CST" duration-ms="3141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkingTitleOfPage -->
+        <test-method signature="checkingSubTitleOfPage()[pri:2, instance:RegressionTest.ForgetPassword@12299890]" started-at="2024-11-14T10:14:36 CST" name="checkingSubTitleOfPage" finished-at="2024-11-14T10:14:38 CST" duration-ms="2232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkingSubTitleOfPage -->
+        <test-method signature="clickingFindMyLoginInfoWithoutAnyDetails()[pri:3, instance:RegressionTest.ForgetPassword@12299890]" started-at="2024-11-14T10:14:38 CST" name="clickingFindMyLoginInfoWithoutAnyDetails" finished-at="2024-11-14T10:14:42 CST" duration-ms="3753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingFindMyLoginInfoWithoutAnyDetails -->
+        <test-method signature="clickingFindMyLoginInfoWithoutFirstName()[pri:4, instance:RegressionTest.ForgetPassword@12299890]" started-at="2024-11-14T10:14:42 CST" name="clickingFindMyLoginInfoWithoutFirstName" finished-at="2024-11-14T10:14:46 CST" duration-ms="4179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingFindMyLoginInfoWithoutFirstName -->
+        <test-method signature="clickingFindMyLoginInfoWithoutLastName()[pri:5, instance:RegressionTest.ForgetPassword@12299890]" started-at="2024-11-14T10:14:46 CST" name="clickingFindMyLoginInfoWithoutLastName" finished-at="2024-11-14T10:14:50 CST" duration-ms="3834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingFindMyLoginInfoWithoutLastName -->
+        <test-method signature="clickingFindMyLoginInfoWithoutAddress()[pri:6, instance:RegressionTest.ForgetPassword@12299890]" started-at="2024-11-14T10:14:50 CST" name="clickingFindMyLoginInfoWithoutAddress" finished-at="2024-11-14T10:14:55 CST" duration-ms="4621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingFindMyLoginInfoWithoutAddress -->
+        <test-method signature="clickingFindMyLoginInfoWithoutCity()[pri:7, instance:RegressionTest.ForgetPassword@12299890]" started-at="2024-11-14T10:14:55 CST" name="clickingFindMyLoginInfoWithoutCity" finished-at="2024-11-14T10:14:59 CST" duration-ms="3914" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingFindMyLoginInfoWithoutCity -->
+        <test-method signature="clickingFindMyLoginInfoWithoutState()[pri:8, instance:RegressionTest.ForgetPassword@12299890]" started-at="2024-11-14T10:14:59 CST" name="clickingFindMyLoginInfoWithoutState" finished-at="2024-11-14T10:15:03 CST" duration-ms="3967" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingFindMyLoginInfoWithoutState -->
+        <test-method signature="clickingFindMyLoginInfoWithoutZipCode()[pri:9, instance:RegressionTest.ForgetPassword@12299890]" started-at="2024-11-14T10:15:03 CST" name="clickingFindMyLoginInfoWithoutZipCode" finished-at="2024-11-14T10:15:06 CST" duration-ms="3701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingFindMyLoginInfoWithoutZipCode -->
+        <test-method signature="clickingFindMyLoginInfoWithoutSSN()[pri:10, instance:RegressionTest.ForgetPassword@12299890]" started-at="2024-11-14T10:15:06 CST" name="clickingFindMyLoginInfoWithoutSSN" finished-at="2024-11-14T10:15:10 CST" duration-ms="4189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingFindMyLoginInfoWithoutSSN -->
+        <test-method signature="clickingFindMyLoginInfoWithAllDetails()[pri:11, instance:RegressionTest.ForgetPassword@12299890]" started-at="2024-11-14T10:15:10 CST" name="clickingFindMyLoginInfoWithAllDetails" finished-at="2024-11-14T10:15:15 CST" duration-ms="4587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingFindMyLoginInfoWithAllDetails -->
+      </class> <!-- RegressionTest.ForgetPassword -->
+      <class name="RegressionTest.Register">
+        <test-method signature="checkingTitleOfPage()[pri:1, instance:RegressionTest.Register@5d43661b]" started-at="2024-11-14T10:13:36 CST" name="checkingTitleOfPage" finished-at="2024-11-14T10:13:38 CST" duration-ms="2761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkingTitleOfPage -->
+        <test-method signature="checkingSubTitleOfPage()[pri:2, instance:RegressionTest.Register@5d43661b]" started-at="2024-11-14T10:13:38 CST" name="checkingSubTitleOfPage" finished-at="2024-11-14T10:13:42 CST" duration-ms="3863" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkingSubTitleOfPage -->
+        <test-method signature="clickingRegisterWithoutAnyDetails()[pri:3, instance:RegressionTest.Register@5d43661b]" started-at="2024-11-14T10:13:42 CST" name="clickingRegisterWithoutAnyDetails" finished-at="2024-11-14T10:13:47 CST" duration-ms="4306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingRegisterWithoutAnyDetails -->
+        <test-method signature="clickingRegisterWithoutFirstName()[pri:4, instance:RegressionTest.Register@5d43661b]" started-at="2024-11-14T10:13:47 CST" name="clickingRegisterWithoutFirstName" finished-at="2024-11-14T10:13:51 CST" duration-ms="4752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingRegisterWithoutFirstName -->
+        <test-method signature="clickingRegisterWithoutLastName()[pri:5, instance:RegressionTest.Register@5d43661b]" started-at="2024-11-14T10:13:51 CST" name="clickingRegisterWithoutLastName" finished-at="2024-11-14T10:13:56 CST" duration-ms="4209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingRegisterWithoutLastName -->
+        <test-method signature="clickingRegisterWithoutAddress()[pri:6, instance:RegressionTest.Register@5d43661b]" started-at="2024-11-14T10:13:56 CST" name="clickingRegisterWithoutAddress" finished-at="2024-11-14T10:14:00 CST" duration-ms="4449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingRegisterWithoutAddress -->
+        <test-method signature="clickingRegisterWithoutCity()[pri:7, instance:RegressionTest.Register@5d43661b]" started-at="2024-11-14T10:14:00 CST" name="clickingRegisterWithoutCity" finished-at="2024-11-14T10:14:04 CST" duration-ms="3903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingRegisterWithoutCity -->
+        <test-method signature="clickingRegisterWithoutState()[pri:8, instance:RegressionTest.Register@5d43661b]" started-at="2024-11-14T10:14:04 CST" name="clickingRegisterWithoutState" finished-at="2024-11-14T10:14:08 CST" duration-ms="4199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingRegisterWithoutState -->
+        <test-method signature="clickingRegisterWithoutZipCode()[pri:9, instance:RegressionTest.Register@5d43661b]" started-at="2024-11-14T10:14:08 CST" name="clickingRegisterWithoutZipCode" finished-at="2024-11-14T10:14:12 CST" duration-ms="3734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingRegisterWithoutZipCode -->
+        <test-method signature="clickingRegisterWithoutSSN()[pri:10, instance:RegressionTest.Register@5d43661b]" started-at="2024-11-14T10:14:12 CST" name="clickingRegisterWithoutSSN" finished-at="2024-11-14T10:14:16 CST" duration-ms="4184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingRegisterWithoutSSN -->
+        <test-method signature="clickingRegisterWithoutUsername()[pri:11, instance:RegressionTest.Register@5d43661b]" started-at="2024-11-14T10:14:16 CST" name="clickingRegisterWithoutUsername" finished-at="2024-11-14T10:14:20 CST" duration-ms="4336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingRegisterWithoutUsername -->
+        <test-method signature="clickingRegisterWithoutPassword()[pri:12, instance:RegressionTest.Register@5d43661b]" started-at="2024-11-14T10:14:20 CST" name="clickingRegisterWithoutPassword" finished-at="2024-11-14T10:14:24 CST" duration-ms="3991" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingRegisterWithoutPassword -->
+        <test-method signature="clickingRegisterWithoutRepeatPassword()[pri:13, instance:RegressionTest.Register@5d43661b]" started-at="2024-11-14T10:14:24 CST" name="clickingRegisterWithoutRepeatPassword" finished-at="2024-11-14T10:14:29 CST" duration-ms="4356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingRegisterWithoutRepeatPassword -->
+        <test-method signature="clickingRegisterWithAllDetail()[pri:14, instance:RegressionTest.Register@5d43661b]" started-at="2024-11-14T10:14:29 CST" name="clickingRegisterWithAllDetail" finished-at="2024-11-14T10:14:33 CST" duration-ms="4135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingRegisterWithAllDetail -->
+      </class> <!-- RegressionTest.Register -->
+      <class name="RegressionTest.LoginPage">
+        <test-method signature="withoutUsernameAndPassword()[pri:1, instance:RegressionTest.LoginPage@2fba3fc4]" started-at="2024-11-14T10:15:15 CST" name="withoutUsernameAndPassword" finished-at="2024-11-14T10:15:17 CST" duration-ms="2456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withoutUsernameAndPassword -->
+        <test-method signature="withUsernameAndWithoutPassword()[pri:2, instance:RegressionTest.LoginPage@2fba3fc4]" started-at="2024-11-14T10:15:17 CST" name="withUsernameAndWithoutPassword" finished-at="2024-11-14T10:15:21 CST" duration-ms="3861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withUsernameAndWithoutPassword -->
+        <test-method signature="withPasswordAndWithoutUsername()[pri:3, instance:RegressionTest.LoginPage@2fba3fc4]" started-at="2024-11-14T10:15:21 CST" name="withPasswordAndWithoutUsername" finished-at="2024-11-14T10:15:25 CST" duration-ms="3839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withPasswordAndWithoutUsername -->
+        <test-method signature="correctusernameAndIncorrectPassword()[pri:5, instance:RegressionTest.LoginPage@2fba3fc4]" started-at="2024-11-14T10:15:25 CST" name="correctusernameAndIncorrectPassword" finished-at="2024-11-14T10:15:30 CST" duration-ms="4595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- correctusernameAndIncorrectPassword -->
+        <test-method signature="incorrectusernameAndcorrectPassword()[pri:6, instance:RegressionTest.LoginPage@2fba3fc4]" started-at="2024-11-14T10:15:30 CST" name="incorrectusernameAndcorrectPassword" finished-at="2024-11-14T10:15:33 CST" duration-ms="3128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incorrectusernameAndcorrectPassword -->
+        <test-method signature="correctPasswordAndUsername()[pri:7, instance:RegressionTest.LoginPage@2fba3fc4]" started-at="2024-11-14T10:15:33 CST" name="correctPasswordAndUsername" finished-at="2024-11-14T10:15:40 CST" duration-ms="7547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- correctPasswordAndUsername -->
+        <test-method signature="Logout()[pri:8, instance:RegressionTest.LoginPage@2fba3fc4]" started-at="2024-11-14T10:15:40 CST" name="Logout" finished-at="2024-11-14T10:15:49 CST" duration-ms="8090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- RegressionTest.LoginPage -->
+      <class name="RegressionTest.OpenNewAccount">
+        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:RegressionTest.OpenNewAccount@420a85c4]" started-at="2024-11-14T10:13:06 CST" name="PreExecutionModule" finished-at="2024-11-14T10:13:21 CST" duration-ms="15803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PreExecutionModule -->
+        <test-method signature="OneNewAccountCheckTitle()[pri:1, instance:RegressionTest.OpenNewAccount@420a85c4]" started-at="2024-11-14T10:15:49 CST" name="OneNewAccountCheckTitle" finished-at="2024-11-14T10:15:49 CST" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OneNewAccountCheckTitle -->
+        <test-method signature="OpenNewAccountWithoutSelectingNothing()[pri:2, instance:RegressionTest.OpenNewAccount@420a85c4]" started-at="2024-11-14T10:15:49 CST" name="OpenNewAccountWithoutSelectingNothing" finished-at="2024-11-14T10:15:50 CST" duration-ms="480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenNewAccountWithoutSelectingNothing -->
+      </class> <!-- RegressionTest.OpenNewAccount -->
+      <class name="RegressionTest.BillPay">
+        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:RegressionTest.BillPay@62833051]" started-at="2024-11-14T10:12:41 CST" name="PreExecutionModule" finished-at="2024-11-14T10:12:55 CST" duration-ms="13309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PreExecutionModule -->
+        <test-method signature="CheckingTheTitle()[pri:2, instance:RegressionTest.BillPay@62833051]" started-at="2024-11-14T10:15:53 CST" name="CheckingTheTitle" finished-at="2024-11-14T10:15:53 CST" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckingTheTitle -->
+        <test-method signature="ClickSendPaymentWithoutAnyDetails()[pri:3, instance:RegressionTest.BillPay@62833051]" started-at="2024-11-14T10:15:53 CST" name="ClickSendPaymentWithoutAnyDetails" finished-at="2024-11-14T10:15:53 CST" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickSendPaymentWithoutAnyDetails -->
+        <test-method signature="clickingRegisterWithoutPayeeName()[pri:4, instance:RegressionTest.BillPay@62833051]" started-at="2024-11-14T10:15:53 CST" name="clickingRegisterWithoutPayeeName" finished-at="2024-11-14T10:15:54 CST" duration-ms="932" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingRegisterWithoutPayeeName -->
+        <test-method signature="clickingRegisterWithoutPayeeAddress()[pri:5, instance:RegressionTest.BillPay@62833051]" started-at="2024-11-14T10:15:54 CST" name="clickingRegisterWithoutPayeeAddress" finished-at="2024-11-14T10:15:55 CST" duration-ms="706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingRegisterWithoutPayeeAddress -->
+        <test-method signature="clickingRegisterWithoutCity()[pri:6, instance:RegressionTest.BillPay@62833051]" started-at="2024-11-14T10:15:55 CST" name="clickingRegisterWithoutCity" finished-at="2024-11-14T10:15:56 CST" duration-ms="787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingRegisterWithoutCity -->
+        <test-method signature="clickingRegisterWithoutState()[pri:7, instance:RegressionTest.BillPay@62833051]" started-at="2024-11-14T10:15:56 CST" name="clickingRegisterWithoutState" finished-at="2024-11-14T10:15:56 CST" duration-ms="567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingRegisterWithoutState -->
+        <test-method signature="clickingRegisterWithoutZipCode()[pri:8, instance:RegressionTest.BillPay@62833051]" started-at="2024-11-14T10:15:56 CST" name="clickingRegisterWithoutZipCode" finished-at="2024-11-14T10:15:57 CST" duration-ms="628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingRegisterWithoutZipCode -->
+        <test-method signature="clickingRegisterWithoutphoneNumber()[pri:9, instance:RegressionTest.BillPay@62833051]" started-at="2024-11-14T10:15:57 CST" name="clickingRegisterWithoutphoneNumber" finished-at="2024-11-14T10:15:58 CST" duration-ms="623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingRegisterWithoutphoneNumber -->
+        <test-method signature="clickingRegisterWithoutAccountNumber()[pri:10, instance:RegressionTest.BillPay@62833051]" started-at="2024-11-14T10:15:58 CST" name="clickingRegisterWithoutAccountNumber" finished-at="2024-11-14T10:15:58 CST" duration-ms="601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingRegisterWithoutAccountNumber -->
+        <test-method signature="clickingRegisterWithoutVerifyAccount()[pri:11, instance:RegressionTest.BillPay@62833051]" started-at="2024-11-14T10:15:58 CST" name="clickingRegisterWithoutVerifyAccount" finished-at="2024-11-14T10:15:59 CST" duration-ms="782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingRegisterWithoutVerifyAccount -->
+        <test-method signature="clickingRegisterWithoutVerifyAmount()[pri:12, instance:RegressionTest.BillPay@62833051]" started-at="2024-11-14T10:15:59 CST" name="clickingRegisterWithoutVerifyAmount" finished-at="2024-11-14T10:16:00 CST" duration-ms="714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingRegisterWithoutVerifyAmount -->
+        <test-method signature="clickingRegisterWithDifferentAccountNumber()[pri:13, instance:RegressionTest.BillPay@62833051]" started-at="2024-11-14T10:16:00 CST" name="clickingRegisterWithDifferentAccountNumber" finished-at="2024-11-14T10:16:00 CST" duration-ms="772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingRegisterWithDifferentAccountNumber -->
+        <test-method signature="clickingRegisterWithAllDetails()[pri:14, instance:RegressionTest.BillPay@62833051]" started-at="2024-11-14T10:16:00 CST" name="clickingRegisterWithAllDetails" finished-at="2024-11-14T10:16:02 CST" duration-ms="1964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingRegisterWithAllDetails -->
+      </class> <!-- RegressionTest.BillPay -->
+      <class name="RegressionTest.UpdateContactInfo">
+        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:RegressionTest.UpdateContactInfo@1c39680d]" started-at="2024-11-14T10:13:21 CST" name="PreExecutionModule" finished-at="2024-11-14T10:13:36 CST" duration-ms="14258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PreExecutionModule -->
+        <test-method signature="clickingUpdateProfileRemovingFirstName()[pri:1, instance:RegressionTest.UpdateContactInfo@1c39680d]" started-at="2024-11-14T10:15:50 CST" name="clickingUpdateProfileRemovingFirstName" finished-at="2024-11-14T10:15:50 CST" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingUpdateProfileRemovingFirstName -->
+        <test-method signature="clickingUpdateProfileRemovingLastName()[pri:2, instance:RegressionTest.UpdateContactInfo@1c39680d]" started-at="2024-11-14T10:15:50 CST" name="clickingUpdateProfileRemovingLastName" finished-at="2024-11-14T10:15:50 CST" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingUpdateProfileRemovingLastName -->
+        <test-method signature="clickingUpdateProfileRemovingAddress()[pri:3, instance:RegressionTest.UpdateContactInfo@1c39680d]" started-at="2024-11-14T10:15:50 CST" name="clickingUpdateProfileRemovingAddress" finished-at="2024-11-14T10:15:50 CST" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingUpdateProfileRemovingAddress -->
+        <test-method signature="clickingUpdateProfileRemovingCity()[pri:4, instance:RegressionTest.UpdateContactInfo@1c39680d]" started-at="2024-11-14T10:15:50 CST" name="clickingUpdateProfileRemovingCity" finished-at="2024-11-14T10:15:50 CST" duration-ms="349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingUpdateProfileRemovingCity -->
+        <test-method signature="clickingUpdateProfileRemovingState()[pri:5, instance:RegressionTest.UpdateContactInfo@1c39680d]" started-at="2024-11-14T10:15:50 CST" name="clickingUpdateProfileRemovingState" finished-at="2024-11-14T10:15:51 CST" duration-ms="420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingUpdateProfileRemovingState -->
+        <test-method signature="clickingUpdateProfileRemovingZipcode()[pri:6, instance:RegressionTest.UpdateContactInfo@1c39680d]" started-at="2024-11-14T10:15:51 CST" name="clickingUpdateProfileRemovingZipcode" finished-at="2024-11-14T10:15:51 CST" duration-ms="536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingUpdateProfileRemovingZipcode -->
+        <test-method signature="clickingUpdateProfileWithoutAnyDetails()[pri:7, instance:RegressionTest.UpdateContactInfo@1c39680d]" started-at="2024-11-14T10:15:51 CST" name="clickingUpdateProfileWithoutAnyDetails" finished-at="2024-11-14T10:15:52 CST" duration-ms="504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingUpdateProfileWithoutAnyDetails -->
+        <test-method signature="clickingUpdateProfileWithAllDetails()[pri:8, instance:RegressionTest.UpdateContactInfo@1c39680d]" started-at="2024-11-14T10:15:52 CST" name="clickingUpdateProfileWithAllDetails" finished-at="2024-11-14T10:15:53 CST" duration-ms="957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingUpdateProfileWithAllDetails -->
+      </class> <!-- RegressionTest.UpdateContactInfo -->
+      <class name="RegressionTest.HomePage">
+        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:RegressionTest.HomePage@4bf48f6]" started-at="2024-11-14T10:12:55 CST" name="PreExecutionModule" finished-at="2024-11-14T10:13:06 CST" duration-ms="10878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PreExecutionModule -->
+        <test-method signature="homePageWelcomeMessage()[pri:1, instance:RegressionTest.HomePage@4bf48f6]" started-at="2024-11-14T10:15:49 CST" name="homePageWelcomeMessage" finished-at="2024-11-14T10:15:49 CST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageWelcomeMessage -->
+        <test-method signature="homePageMenuTitle()[pri:2, instance:RegressionTest.HomePage@4bf48f6]" started-at="2024-11-14T10:15:49 CST" name="homePageMenuTitle" finished-at="2024-11-14T10:15:49 CST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageMenuTitle -->
+        <test-method signature="homePageMenuItems()[pri:3, instance:RegressionTest.HomePage@4bf48f6]" started-at="2024-11-14T10:15:49 CST" name="homePageMenuItems" finished-at="2024-11-14T10:15:49 CST" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageMenuItems -->
+        <test-method signature="homePageMainTitle()[pri:4, instance:RegressionTest.HomePage@4bf48f6]" started-at="2024-11-14T10:15:49 CST" name="homePageMainTitle" finished-at="2024-11-14T10:15:49 CST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageMainTitle -->
+        <test-method signature="homePageAccountTableDetails()[pri:5, instance:RegressionTest.HomePage@4bf48f6]" started-at="2024-11-14T10:15:49 CST" name="homePageAccountTableDetails" finished-at="2024-11-14T10:15:49 CST" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageAccountTableDetails -->
+      </class> <!-- RegressionTest.HomePage -->
+      <class name="RegressionTest.Logout">
+        <test-method signature="logoutFeature()[pri:0, instance:RegressionTest.Logout@1c852c0f]" started-at="2024-11-14T10:16:02 CST" name="logoutFeature" finished-at="2024-11-14T10:16:10 CST" duration-ms="7922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFeature -->
+      </class> <!-- RegressionTest.Logout -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (0) -->
+  <suite started-at="2024-11-14T10:16:10 CST" name="MasterExecutionSuite" finished-at="2024-11-14T10:16:10 CST" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- MasterExecutionSuite -->
+</testng-results>

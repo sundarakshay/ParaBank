@@ -1,0 +1,14 @@
+SanityTest\Logout.class
+SanityTest\UpdateContactInfo.class
+RegressionTest\BillPay.class
+RegressionTest\LoginPage.class
+RegressionTest\OpenNewAccount.class
+SanityTest\RegisterPage.class
+RegressionTest\HomePage.class
+SanityTest\BillPayPage.class
+RegressionTest\Logout.class
+SanityTest\Login.class
+RegressionTest\ForgetPassword.class
+RegressionTest\Register.class
+RegressionTest\UpdateContactInfo.class
+SanityTest\Home.class

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="RegressionTest.Register"/>
+      <class name="RegressionTest.ForgetPassword"/>
+      <class name="RegressionTest.LoginPage"/>
+      <class name="RegressionTest.HomePage"/>
+      <class name="RegressionTest.OpenNewAccount"/>
+      <class name="RegressionTest.UpdateContactInfo"/>
+      <class name="RegressionTest.BillPay"/>
+      <class name="RegressionTest.Logout"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
